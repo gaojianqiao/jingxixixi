@@ -1,0 +1,32 @@
+{
+  "name": "elema",
+  "version": "1.0.0",
+  "description": "一个买食品的网站",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gaojianqiao",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp.spritesmith": "^6.11.0",
+    "node-sass": "^4.12.0",
+    "nodesass": "0.0.2-security",
+    "sass": "^1.23.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "delete": "^1.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-minify": "^3.1.0"
+  }
+}

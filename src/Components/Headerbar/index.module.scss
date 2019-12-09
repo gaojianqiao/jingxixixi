@@ -1,0 +1,75 @@
+.box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5000;
+color: #Fff;  
+background: rgba($color: #000000, $alpha: 0);
+.headertop{
+    // width: 3.75rem;
+    width:100%;
+    height: .45rem;
+    margin: 0 auto;
+    text-decoration: none;
+    overflow: hidden;
+    color: #Fff;
+    .login{
+        width: .55rem;
+        height:.45rem ;
+        line-height:.45rem ;
+        text-align: center;
+        font-size: .16rem;
+        a{
+            text-decoration: none;
+            color: #Fff;
+        }
+
+    }
+    .seach{
+        a{
+            text-decoration: none;
+            color: #Fff;
+            display: inline-block;
+            width: 2.6rem;
+            height: .34rem;
+            line-height:.34rem ;
+            overflow: hidden;
+            
+            color: hsla(0,0%,100%,.6);
+    
+        }
+        width: 2.6rem;
+        height:.34rem ;
+        text-align: center;
+        font-size: .16rem;
+        margin: .05rem;
+        background-color: hsla(0,0%,100%,.3);
+
+    }
+    .shopcar{
+        width: .49rem;
+        height:.48rem ;
+        line-height:.48rem ;
+        text-align: center;
+
+a{
+    color: #Fff;
+    text-decoration: none;
+}
+    }
+}
+.nav{
+    overflow: hidden;
+    height: .3rem;
+    li{
+        a{
+            height:.3rem ;
+            color: #Fff;
+            text-decoration: none;
+
+        }
+        
+    }
+}
+}

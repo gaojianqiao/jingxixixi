@@ -1,0 +1,35 @@
+.box{
+    border-bottom: .0043333rem solid #ccc;
+    padding: .3rem 0;
+    margin: 0 .15rem;
+    box-shadow: 0 0.0043333rem 0 0 #ccc;
+    overflow: hidden;
+  .box1{
+    width: 50%;
+    float: left;
+    .box1span1{
+        margin-bottom: .05rem;
+        font-size: .16rem;
+        display: block;
+    }
+    .box1span2{
+        color: #999;
+        display: block;
+    }
+  }
+  .box2{
+    width: 50%;
+    float: right;
+    text-align: right;
+      a{
+        display: inline-block;
+        margin: .06rem 0 0;
+        padding: .03rem .12rem;
+        color: #fff;
+        font-size: .16rem;
+        font-weight: 700;
+        background: #000;
+        text-decoration: none;
+      }
+  }
+}

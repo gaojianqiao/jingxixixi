@@ -3,13 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="stylesheet" href="./font/iconfont.css">
+    
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -25,6 +28,48 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script>document.documentElement.style.fontSize = window.innerWidth / 375 * 100 + 'px'</script>
+    <style>
+      h1,
+            h2,
+        h3,
+        h4,
+        h5,
+        p,
+        li,
+        ul,
+        figure,
+        figcaption {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            font-size: 100px;
+        }
+        
+        body {
+            margin: 0;
+            font-family: '微软雅黑',-apple-system,BlinkMacSystemFont,"'PingFang SC'",Helvetica Neue,Helvetica,Arial,sans-serif;;
+            font-size: 12px;
+            color: black;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        .l{
+          float: left;
+        }
+        .r{
+          float: right;
+        }
+        body,
+        html {
+            height: 100%;
+        }
+    
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +84,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
   </body>
 </html>

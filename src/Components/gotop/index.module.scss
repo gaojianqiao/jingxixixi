@@ -1,0 +1,11 @@
+.box{
+    position: fixed;
+    bottom: .2rem;
+    right: .15rem;
+    width: .5rem;
+    height: .5rem;
+    background: opacify($color: #d3d0d0, $amount: .1);
+    background-image: url('/img/a.jpg');
+    background-size:cover ;
+    border-radius: 50%;
+}

@@ -1,0 +1,10 @@
+大小
+http://www.mei.com/appapi/event/product/v3?pageIndex=1&categoryId=2121005100000003395&key=&sort=DESC&timestamp=1575593685865&summary=18fadb80750f8a209857a8290c12e163&platform_code=H5
+小大
+http://www.mei.com/appapi/event/product/v3?pageIndex=1&categoryId=2121005100000003395&key=&sort=ASC&timestamp=1575593692016&summary=20fd05a33799115a0ed28d23c4131bc9&platform_code=H5
+
+随机
+http://www.mei.com/appapi/event/product/v3?pageIndex=1&categoryId=2121005100000003395&key=&sort=&timestamp=1575593682316&summary=7d1ef62152f33ddf6f3f17481621e27a&platform_code=H5
+
+折扣
+http://www.mei.com/appapi/event/product/v3?pageIndex=1&categoryId=2121005100000003395&key=1&sort=ASC&timestamp=1575593831184&summary=276723dc69b3af2154ed7f6d2b013360&platform_code=H5

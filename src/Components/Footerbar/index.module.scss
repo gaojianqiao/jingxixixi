@@ -1,0 +1,49 @@
+.box{
+
+    border-top: .002rem solid #eee;
+    width: 3.45rem;
+    margin: 0 auto;
+    padding: .266667rem 0 1.333333rem;
+    box-shadow: 0 -0.003rem 0 0 #ccc;
+    margin: 0 .15rem;
+    .tel{
+        display: block;
+        padding: .05rem 0 .05rem;
+        width: 3.45rem;
+        font-size: .16rem;
+        text-align: center;
+    }
+    .ul{
+        display: block;
+        padding: .05rem 0;
+        text-align: center;
+        overflow: hidden;
+        width: 3.45rem;
+        li{
+            display: inline-block;
+            // float: left;
+            overflow: hidden;
+            a{
+                text-decoration: none;
+                padding:0 .12rem;
+                height: .14rem;
+                line-height: .14rem;
+                color: #666;
+                font-size: .12rem;
+                border-right: .01rem rgb(88, 88, 88) solid;
+            }
+            .lasta{
+                border: 0;
+            }
+        }
+        
+    }
+    .c{
+        font-size: .12rem;
+        display: block;
+        color: #666;
+        width: 3.45rem;
+        padding: .05rem 0 .05rem;
+        text-align: center;
+    }
+}

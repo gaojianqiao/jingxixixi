@@ -1,0 +1,70 @@
+.someul{
+    width: 3.45rem;
+    margin: 0 auto;
+    overflow: hidden;
+    li{
+        width: 1.65rem;
+        height: 3.02rem;
+        margin-bottom: .1rem;
+        display: inline-block;
+        margin-right: .07rem;
+        a{
+            display: block;
+            width: 100%;
+            color: #000;
+            img{
+                width: 1.65rem;
+                height:2.20rem;
+            }
+            .text{
+                .textbox1{
+                    padding-bottom: .025rem;
+                    .textbox1p1{
+                        width: 100%;
+                        margin-bottom: .025rem;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        height: .14rem;
+                        line-height: .14rem;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: .14rem;
+                    }
+                    .textbox1p2{
+                        width: 100%;
+                        margin-bottom: .025rem;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        height: .14rem;
+                        line-height: .14rem;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: .12rem;
+                    }
+                }
+                .textbox2{
+                    .textbox2span1{
+                        color: #dd2828;
+                        font-size: .13rem;
+                        font-weight: 700;
+                        display: inline-block;
+                        vertical-align: top;
+                        line-height: .13rem;
+       
+                        padding-right: .1rem;
+                    }
+                    .textbox2span2{
+                        color: #ccc;
+                        font-size: .13rem;
+                        display: inline-block;
+                        vertical-align: top;
+                        line-height: .13rem;
+                        text-decoration: line-through;
+                    }
+               }
+            }
+        }
+    }
+}

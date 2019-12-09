@@ -1,26 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Headerbar from './Components/Headerbar';
+import {connect} from 'react-redux'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+class App extends React.Component{
+
+  render(){
+   
+ 
+    return <div>
+     
+      {
+        (this.props.isshowheader?this.props.isshowheader:this.props.isshowheadera)?
+        <Headerbar />:null
+      }
+     
+      {this.props.children}
+
     </div>
-  );
-}
 
-export default App;
+  }
+componentWillMount(){
+this.props.showHeader()
+}
+}
+const getaheadershow=(state)=>{
+  // console.log(state)
+  return {
+    isshowheader:state.headbar,
+  }
+}
+const setheaderbar={
+  showHeader:function showHeader(){
+    return {
+        type:"showHeaderbar",
+        payload:true 
+    }
+}
+}
+export default connect(getaheadershow,setheaderbar)(App);
